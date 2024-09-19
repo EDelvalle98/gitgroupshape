@@ -1,14 +1,14 @@
 package Main;
 
-public class rectangle extends shape {
-    private double length;
-    private double width;
+public class Rectangle extends Shape {
+//    private double length;
+//    private double width;
 
-    public rectangle(double length, double width, String color) {
-        this.length = length;
-        this.width = width;
-        this.color = color;
-    }
+//    public void rectangle(double length, double width, String color) {
+//        this.length = length;
+//        this.width = width;
+//        this.color = color;
+//    }
 
     @Override
     public void calculateArea() {
@@ -22,8 +22,5 @@ public class rectangle extends shape {
         System.out.println("Perimeter of the rectangle: " + perimeter);
     }
 }
-    public static void main(String[] args) {
-
-    }
 
 

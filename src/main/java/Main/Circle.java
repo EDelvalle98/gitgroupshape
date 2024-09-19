@@ -1,12 +1,12 @@
 package Main;
 
-public class Circle extends shape{
-    private double radius;
+public class Circle extends Shape{
+//    private double radius;
 
-    public Circle(double radius, String color) {
-        this.radius = radius;
-        this.color = color;
-    }
+//    public Circle(double radius, String color) {
+//        this.radius = radius;
+//        this.color = color;
+//    }
 
     @Override
     public void calculateArea() {

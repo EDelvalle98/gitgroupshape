@@ -1,14 +1,14 @@
 package Main;
 
 
-public class Square extends shape {
+public class Square extends Shape {
 
-    private double side;
+//    private double side;
 
-    public Square(double side, String color) {
-        this.side = side;
-        this.color = color;
-    }
+//    public Square(double side, String color) {
+//        this.side = side;
+//        this.color = color;
+//    }
 
     @Override
     public void calculateArea() {
